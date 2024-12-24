@@ -3,7 +3,11 @@
   --cerulean: #087ca7;
   --offwhite: #f2f0ef;
 }
-
+.cimage {
+  background-image: url(../images/whiteshirt.jpg);
+  background-size: cover;
+  background-position: center;
+}
 @media (min-width: 1536px) {
   .contact {
     height: 100vh;
