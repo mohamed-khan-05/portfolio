@@ -3,6 +3,9 @@
   --cerulean: #087ca7;
   --offwhite: #f2f0ef;
 }
+.cme {
+  color: white;
+}
 .cimage {
   background-image: url(../images/whiteshirt.jpg);
   background-size: cover;
@@ -18,6 +21,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .cme {
+    font-size: 2rem;
   }
 
   .contactcontainer {
