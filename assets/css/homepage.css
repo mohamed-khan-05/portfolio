@@ -373,7 +373,7 @@
     width: 100%;
     display: flex;
     position: absolute;
-    justify-content: space-around;
+    justify-content: left;
     background-color: transparent;
     z-index: 1;
   }
@@ -391,6 +391,7 @@
     color: var(--richblack);
     font-size: 1rem;
     font-family: Charm, serif;
+    margin-right: 0.5rem;
   }
   .container1 {
     width: 99vw;
