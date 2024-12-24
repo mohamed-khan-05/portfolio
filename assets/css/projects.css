@@ -1,0 +1,157 @@
+:root {
+  --richblack: #011628;
+  --cerulean: #087ca7;
+  --offwhite: #f2f0ef;
+}
+.projectheading {
+  color: #fff;
+}
+.projects {
+  height: 100vh;
+  width: 99vw;
+  background-color: var(--richblack);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.project:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+.pimg {
+  height: 80%;
+  width: 90%;
+  justify-self: center;
+  background-color: #000;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+@media (min-width: 1536px) {
+  .projectheading {
+    color: #fff;
+    font-size: 2.5rem;
+    grid-area: h;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .projectscontainer {
+    height: 95%;
+    width: 70vw;
+    padding: 1rem 0;
+    background-color: var(--offwhite);
+    box-sizing: border-box;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 3fr 3fr;
+    grid-template-areas: ". h ." "a b c" "d e f";
+  }
+  .project {
+    width: 90%;
+    height: 90%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  }
+  .one {
+    grid-area: a;
+  }
+  .two {
+    grid-area: b;
+  }
+  .three {
+    grid-area: c;
+  }
+  .four {
+    grid-area: d;
+  }
+  .five {
+    grid-area: e;
+  }
+  .six {
+    grid-area: f;
+  }
+}
+@media (min-width: 768px) and (max-width: 1536px) {
+  .projectheading {
+    color: #fff;
+    font-size: 2.5rem;
+    grid-area: h;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .projectscontainer {
+    height: 95%;
+    width: 70vw;
+    padding: 1rem 0;
+    background-color: var(--offwhite);
+    box-sizing: border-box;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 3fr 3fr;
+    grid-template-areas: ". h ." "a b c" "d e f";
+  }
+  .project {
+    width: 90%;
+    height: 90%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  }
+  .one {
+    grid-area: a;
+  }
+  .two {
+    grid-area: b;
+  }
+  .three {
+    grid-area: c;
+  }
+  .four {
+    grid-area: d;
+  }
+  .five {
+    grid-area: e;
+  }
+  .six {
+    grid-area: f;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .projectheading {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .projectscontainer {
+    height: 95%;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: var(--offwhite);
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+  }
+  .project {
+    width: 90%;
+    height: 90%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    flex-shrink: 0;
+  }
+}
