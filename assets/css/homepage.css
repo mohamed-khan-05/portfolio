@@ -369,7 +369,7 @@
     background-color: var(--offwhite);
   }
   .navbar {
-    margin: 1.2rem 1rem;
+    margin: 1.2rem 0;
     width: 100%;
     display: flex;
     position: absolute;
