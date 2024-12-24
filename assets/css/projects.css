@@ -16,9 +16,6 @@
   align-items: center;
   overflow: hidden;
 }
-.project:hover {
-  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
-}
 .pimg {
   height: 80%;
   width: 90%;
@@ -47,6 +44,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 3fr 3fr;
     grid-template-areas: ". h ." "a b c" "d e f";
+  }
+  .project:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
   }
   .project {
     width: 90%;
@@ -104,6 +104,9 @@
     padding-top: 1rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   }
+  .project:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  }
   .one {
     grid-area: a;
   }
@@ -144,6 +147,7 @@
     white-space: nowrap;
     scrollbar-width: thin;
     scrollbar-color: #888 transparent;
+    scrollbar-gutter: hidden;
   }
   .project {
     width: 90%;
